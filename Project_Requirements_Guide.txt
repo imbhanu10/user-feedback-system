@@ -1,0 +1,77 @@
+# === Project Requirements ===
+
+This project uses:
+
+- Node.js (Express + Mongoose) for backend
+- React for frontend
+- MongoDB for the database
+- Jest + React Testing Library + Supertest for testing
+
+-----------------------------------
+🖥️  Backend (Node.js + Express)
+-----------------------------------
+To be installed from: server/package.json
+
+Main dependencies:
+- express
+- mongoose
+- cors
+- dotenv
+
+Dev/testing:
+- jest
+- supertest
+
+To install:
+    cd server
+    npm install
+
+To run backend server:
+    npm start
+
+-----------------------------------
+🎨 Frontend (React)
+-----------------------------------
+To be installed from: client/package.json
+
+Main dependencies:
+- react
+- react-dom
+- react-scripts
+- axios
+
+Dev/testing:
+- @testing-library/react
+
+To install:
+    cd client
+    npm install
+
+To run frontend:
+    $env:NODE_OPTIONS="--openssl-legacy-provider"
+    npm start
+
+-----------------------------------
+🛢️  Database (MongoDB)
+-----------------------------------
+- You need MongoDB running locally on default port 27017
+- Use MongoDB Compass to view data visually (optional)
+- Database name: feedbackDB
+- Collection: feedbacks
+
+To check DB contents via shell:
+    mongo
+    use feedbackDB
+    db.feedbacks.find().pretty()
+
+-----------------------------------
+✅ Optional: Python requirements.txt
+-----------------------------------
+Only needed if running a Flask version (not required for this Node.js build)
+
+Contents:
+
+    flask
+    flask-cors
+    pymongo
+    python-dotenv
