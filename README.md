@@ -44,7 +44,7 @@ If you downloaded the ZIP:
 Or if using Git:
 
     git clone https://github.com/imbhanu10/user-feedback-system
-    cd user-feedback-system-complete
+    cd user-feedback-system
 
 ---
 
